@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin-left: 0px;
+            box-sizing: border-box;
+        }
+        .star{
+            float: left;
+        }
+        img{float: right;}
+        .star img:hover{
+            content: url(star1.png);
+        }
+        img:nth-child(-n+5):hover ~ img{content: url(star1.png);}
+   
+    </style>
+</head>
+<body>
+    <div class="star">
+        <img src="star0.png" alt="star">
+        <img src="star0.png" alt="star">
+        <img src="star0.png" alt="star">
+        <img src="star0.png" alt="star">
+        <img src="star0.png" alt="star">
+    </div>
+    
+</body>
+</html>
