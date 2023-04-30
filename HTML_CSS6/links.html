@@ -37,6 +37,12 @@
             padding-left: 10px;
         }
         ul{padding: 0;}
+        
+        .five>a{color: green;
+                display: none;}
+        .five a::after{
+            content: url(red.png); height: 20px;
+        }
 
 
     </style>
@@ -116,6 +122,15 @@
                 <a href="https://www.onliner.by/">Пятая ссылка</a>
             </li>
         </ul>
+    </div>
+
+    <div class="five"> 
+        <!--пятый способ через селекторы псевдоэлементов -->
+        <a href="https://www.onliner.by/">Первая ссылка </a>
+        <a href="https://www.onliner.by/">Вторая ссылка </a>
+        <a href="https://www.onliner.by/">Третья ссылка </a>
+        <a href="https://www.onliner.by/">Четвертая ссылка </a>
+        <a href="https://www.onliner.by/">Пятая ссылка </a>
     </div>
 
 </body>
