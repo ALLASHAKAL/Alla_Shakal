@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+       
+        .one a { color: green;
+            width: 300 px;
+        }
+        .one img{
+            height: 20px;
+            margin-right: 10px;
+        }
+        
+        [href*="av"]{
+            color: green;
+            width: 300 px; 
+        }
+        [alt*="der"]{
+            height: 20px;
+            margin-right: 10px;
+        }
+        table tr td a:hover{ color: red;}
+        td a:nth-child(odd){
+            color: green;
+        }
+        td img{
+            height: 20px;
+        }
+        .four ul li a:hover{color: red;}
+        .four ul li a{color: green;}
+        .four li{
+            list-style-type: none;
+            display: inline;
+            background: url(red.png) no-repeat right;
+            background-size: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        ul{padding: 0;}
+        
+        .five>a{color: green;}
+
+        .five a::after{
+            
+            content: url(red.png);
+        }
+
+        a:hover{ color: red;}
+    </style>
+</head>
+<body>
+     <div class="one"> 
+        <!--Первый способ по дочернему селектору -->
+        <a href="https://www.onliner.by/">Первая ссылка <img src="red.png" alt="red"></a>
+        <a href="https://www.onliner.by/">Вторая ссылка <img src="red.png" alt="red"></a>
+        <a href="https://www.onliner.by/">Третья ссылка <img src="red.png" alt="red"></a>
+        <a href="https://www.onliner.by/">Четвертая ссылка <img src="red.png" alt="red"></a>
+        <a href="https://www.onliner.by/">Пятая ссылка <img src="red.png" alt="red"></a>
+    </div>
+    
+    <div>
+        <!-- Второй способ по атрибуту -->
+        <a href="https://av.by.">Первая ссылка <img src="red.png" alt="der"></a>
+        <a href="https://av.by.">Вторая ссылка <img src="red.png" alt="der"></a>
+        <a href="https://av.by.">Третья ссылка <img src="red.png" alt="der"></a>
+        <a href="https://av.by.">Четвертая ссылка <img src="red.png" alt="der"></a>
+        <a href="https://av.by.">Пятая ссылка <img src="red.png" alt="der"></a>
+    </div>
+
+    <table> <!--Третий способ через таблицу и nth-child-->
+        <tr>
+            <td>
+                <a href="https://www.onliner.by/">Первая ссылка  </a>
+            </td>
+            <td>
+                <img src="red.png" alt="red">
+            </td>
+            <td>
+                <a href="https://www.onliner.by/">Вторая ссылка </a>
+            </td>
+            <td>
+                <img src="red.png" alt="red">
+            </td>
+            <td>
+                <a href="https://www.onliner.by/">Третья ссылка </a>
+            </td>
+            <td>
+                <img src="red.png" alt="red">
+            </td>
+            <td>
+                <a href="https://www.onliner.by/">Четвертая ссылка </a>
+            </td>
+            <td>
+                <img src="red.png" alt="red">
+            </td>
+            <td>
+                <a href="https://www.onliner.by/">Пятая ссылка </a>
+            </td>
+            <td>
+                <img src="red.png" alt="red">
+            </td>
+            
+        </tr>
+    </table>
+
+
+    <div class="four">
+        <!-- четвертый через список и красная линия бэкграунд-->
+        <ul>
+            <li>
+                <a href="https://www.onliner.by/">Первая ссылка </a>
+            </li>
+            <li>
+                <a href="https://www.onliner.by/">Вторая ссылка</a>
+            </li>
+            <li>
+                <a href="https://www.onliner.by/">Третья ссылка</a>
+            </li>
+            <li>
+                <a href="https://www.onliner.by/">Четвертая ссылка</a>
+            </li>
+            <li>
+                <a href="https://www.onliner.by/">Пятая ссылка</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="five"> 
+        <!--пятый способ через селекторы псевдоэлементов ::After что то пошло не так}}}}}-->
+        <a href="https://www.onliner.by/">Первая ссылка </a>
+        <a href="https://www.onliner.by/">Вторая ссылка </a>
+        <a href="https://www.onliner.by/">Третья ссылка </a>
+        <a href="https://www.onliner.by/">Четвертая ссылка </a>
+        <a href="https://www.onliner.by/">Пятая ссылка </a>
+    </div>
+
+</body>
+</html>
