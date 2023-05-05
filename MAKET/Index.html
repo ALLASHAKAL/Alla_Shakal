@@ -17,27 +17,28 @@
         .header{
             height: 38px;
             background-color: #313131;
-            color: #FFFFFF;
+            
         }
         .konteiner{
             width: 1140px;
-            margin-left: 140px;
-            margin-right: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        .kont1{
             padding-top: 10px;
             padding-right: 12px;
-
-            }
-
-        .konteiner div ul li{
+            color: #FFFFFF;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .kont1 div ul li{
             font-family: 'Roboto';
             display:inline-block;
             float: left;
             padding-right: 30px;}
-         .clearfix:after{
-                content:".";
-                 display: block;
-                 clear: both;
-            }
 
         
         .kontakt{
@@ -50,11 +51,62 @@
             padding-right: 30px;
             text-decoration: none;
         }
+        [alt*=LOGO]{
+            margin-top: 10px;
+            margin-right: 50px;
+            float: left;
+            width: 112.96px;
+            height: 25px;
+            
+        }
+        .kont div.logo{
+            float: right;
+            margin-left: 20px;
+        }
+        [name*=search]{
+            width: 839px;
+            height: 50px;
+        }
+        [alt*=right]{
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        
+        .menu ul{
+            margin: 30px;
+        }
+        .menu ul li{
+            list-style-type: none;
+            color: black;
+            float: left;
+            padding: 30px;
+            margin-right: 10px;
+        }
+        .menu ul li:nth-child(1){
+            background: url(Img/pervoe/kitchen-icon.png) no-repeat left 20px;
+        }
+        .menu ul li:nth-child(2){
+            background: url(Img/pervoe/bedroom-icon.png) no-repeat left 20px;
+        }
+        .menu ul li:nth-child(3){
+            background: url(Img/pervoe/livingroom-icon.png) no-repeat left 20px;
+        }
+        .menu ul li:nth-child(4){
+            background: url(Img/pervoe/closet-icon.png) no-repeat  left 20px;
+        }
+        .menu ul li:nth-child(5){
+            background: url(Img/pervoe/office-icon.png) no-repeat left 20px;
+        }
+        .menu ul li:nth-child(6){
+            background: url(Img/pervoe/childrensroom-icon.png) no-repeat left 20px;
+        }
+            
     </style>
 </head>
 <body>
     <div class="header">
         <div class="konteiner">
+            <div class="kont1 clearfix">
             <div>
                 <ul>
                     <li>
@@ -74,8 +126,32 @@
                 <img src="Img/delivery-icon.png" alt="deliveri">
                 <span>Доставка</span>
             </div>
-        </div>
-    </div>
+           </div>
     
+
+    <div class="kont clearfix">
+        <img src="Img/LOGO.png" alt="LOGO">
+        <div class="logo">
+            <img src="Img/wishlist-icon.png" alt="right">
+            <img src="Img/bag.png" alt="right">
+            <img src="Img/profile-icon.png" alt="right">
+        </div>
+        <input type="search" name="search" placeholder="Поиск">
+    </div>
+
+    <div class="menu">
+         <ul>
+             <li>Кухни</li>
+             <li>Спальни</li>
+             <li>Гостинные</li>
+             <li>Прихожие</li>
+             <li>Офисная мебель</li>
+             <li>Детская</li>
+             <li>Акция</li>
+        <li><img src="Img/pervoe/etc.png" alt="etc"></li>
+
+    </ul>
+         </div>
+        </div>
 </body>
 </html>
