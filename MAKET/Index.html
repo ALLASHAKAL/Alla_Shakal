@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalaize.css">
+
+
+    <style>
+        *{ margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+        .header{
+            height: 38px;
+            background-color: #313131;
+            color: #FFFFFF;
+        }
+        .konteiner{
+            width: 1140px;
+            margin-left: 140px;
+            margin-right: 120px;
+            padding-top: 10px;
+            padding-right: 12px;
+
+            }
+
+        .konteiner div ul li{
+            font-family: 'Roboto';
+            display:inline-block;
+            float: left;
+            padding-right: 30px;}
+         .clearfix:after{
+                content:".";
+                 display: block;
+                 clear: both;
+            }
+
+        
+        .kontakt{
+            float: right;
+            padding-bottom: 12px;
+
+        }
+        .kontakt a{
+            color: #FFFFFF;
+            padding-right: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="konteiner">
+            <div>
+                <ul>
+                    <li>
+                        Главная
+                    </li>
+                    <li>
+                        О нас
+                    </li>
+                    <li> 
+                        Контакты
+                    </li>
+                </ul>
+            </div>
+            <div class="kontakt">
+                <img src="Img/phone.png" alt="phone">
+                <a href="tel:8(964)8999119">8(964)8999119</a>
+                <img src="Img/delivery-icon.png" alt="deliveri">
+                <span>Доставка</span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
