@@ -1,0 +1,15 @@
+@media all and (max-width:800px){
+
+.menu{
+    width: auto;
+    background-color: #f0a58c;
+    float: none;
+}
+img{
+    float: none;
+}
+.kontent{
+    background: none;
+}
+
+}
