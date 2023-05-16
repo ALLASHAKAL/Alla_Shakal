@@ -1,0 +1,24 @@
+
+.header{
+    font-size: xx-large;
+    color: blue;
+    background-color: #add8e6;
+    text-align: center;
+}
+h2,h3{text-align: center;
+      margin-top: 0;}
+.menu{
+    width: 200px;
+    background-color: #f0e68c;
+    float: left;
+}
+img{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.kontent{
+    background: url(IMG/boll.png) right repeat-y;
+}
+
