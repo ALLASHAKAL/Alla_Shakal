@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h3>При меньшем размере экрана, картинка меньшего объема</h3> 
+    <picture>
+        <source srcset="IMG/inst.png" media="(max-width: 1024px)">
+        <img src="IMG/inst1000.png" alt="instagram">
+    </picture>
+
+    <h3>Разные форматы изображения.
+    Указываем список источников и mime/type для каждого, 
+    а браузер уже выбирает первый, который знает.</h3> 
+     <picture>
+        <source srcset="IMG/webp.webp" type="png/webp">
+        <img src="IMG/1.png" alt="Rose"  width="400" height="300">
+     </picture>
+
+     <h3>Так же можно подключить разные изображения на разные темы экрана. Темная и светлая.
+    Портретная & альбомная.  </h3> 
+    
+
+</body>
+</html>
