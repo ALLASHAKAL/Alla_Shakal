@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+
+        <input type="text" name="text" value="text"><br><br>
+        <select name="pet" multiple>
+            <optgroup label="home" >
+               <option value="pet">cat</option>
+               <option value="pet">dog</option>
+               <option value="pet">monkey</option>
+            </optgroup>
+        
+            <optgroup label="home">
+                <option value="pet1">cat</option>
+                <option value="pet1">dog</option>
+                <option value="pet1">monkey</option>
+            </optgroup>
+        </select><br><br>
+        <textarea name="textarea" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quos assumenda</textarea> <br><br>
+
+    <input type="submit">
+    </form>
+    <hr>
+    <form action="http://fe.it-academy.by/TestForm.php" method="POST">
+        <input type="radio" name="one">
+        <input type="radio" name="one">
+        <input type="radio" name="one">
+        <input type="radio" name="one"><br><br>
+        
+        <input type="checkbox" name="a">
+        <input type="checkbox" name="b">
+        <input type="checkbox" name="c">
+
+        <input type="submit">
+    </form>
+</body>
+</html>
