@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         .skov{
+             position: relative;
+             top: 200px;
+         }
+         .big{
+             position: absolute;
+             
+         }
+         .mini{
+             position: absolute;
+             z-index: 1;
+             left: 60px;
+             top: 10px;
+             transition: 1s;
+         }
+         .kusok{
+             position: absolute;
+             z-index: 2;
+             top: 70px;
+         }
+         .skov:hover .mini{
+             top: -150px;
+             
+         }
+     </style> 
+
+</head>
+<body>
+    <div class="skov">
+        <div class="big"><img src="1.webp" alt="1"></div>
+        <div class="mini"><img src="2.webp" alt="2"></div>
+        <div class="kusok"><img src="3.webp" alt="3"></div>
+    </div>
+</body>
+</html>
