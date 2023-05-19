@@ -1,0 +1,19 @@
+@media all and (max-width:800px){
+.header{
+    color: brown;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.menu{
+    width: auto;
+    background-color: #f0a58c;
+    float: none;
+}
+img{
+    float: none;
+}
+.kontent{
+    background: url(IMG/boll.png) top repeat-x;
+}
+
+}
