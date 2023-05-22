@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        form{
+            margin: 10px;
+            font-size: x-large;
+         }
+        .name{
+            width: 200px;
+            float: left;
+        }
+        inp{
+            margin-left: 201px;
+        }
+        [name*="text"]{
+            width: 100%;
+            margin-left: 201px;
+        }
+        [name*="area"]{
+            width: 100%;
+        }
+        p{
+         width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+
+        <p>Для публикации вашей статьи, заполните пожалуйста следующую форму: </p> 
+        
+        <div class="name"> Hазвание статьи:</div> 
+
+        <div class="inp"><input type="text" name="text"></div>
+
+        <div class="name">Рубрика:</div> 
+
+        <div class="inp">
+        <select name="text">
+            <option value="teh">компьютерная техника</option>
+            <option value="teh">графика дизайн</option>
+            <option value="teh">програмирование</option>
+        </select>
+        </div> 
+
+       <div class="name">Публикация:</div> 
+
+        <div class="inp">
+             <input type="radio" name="public"> на сайте 
+             <input type="radio" name="public"> в журнале
+             <input type="radio" name="public"> на сайте и в журнале
+        </div>  
+
+        <div class="name">Разрешить комментарии:</div> 
+
+        <div class="inp">
+             <input type="checkbox" name="check" value="yes" checked>
+        </div> <br>
+
+        <div class="name">Текст статьи:</div><br>
+        
+        <div class="inp">
+            <textarea name="area"  cols="50" rows="10" maxlength></textarea>
+        </div>
+        <input type="submit">
+    </form>
+     
+</body>
+</html>
