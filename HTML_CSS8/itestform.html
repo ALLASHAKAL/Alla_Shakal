@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        form{
+            font-size: large;
+           
+        }
+        p{
+            width: 600px;
+        }
+        fieldset{
+            margin: 10px;
+        }
+        label{
+            width: 200px;
+            float: left;
+
+        }
+        [name*=text]{
+             width: 80%;
+
+        }
+        textarea{
+            width: 80%;
+        }
+        .ded{
+            display: inline-block;
+        }
+        @media all and (max-width:1023px){
+            p{
+                width: auto;
+            }
+        }
+        label{
+            float: none;
+        }
+        
+    </style>
+</head>
+<body>
+
+    
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+        <fieldset>
+ 
+        <p>Для публикации вашей статьи, заполните пожалуйста следующую форму: </p> 
+        
+        <label > Hазвание статьи: </label>
+             <input type="text" name="text">
+       <br>
+
+        <label>Рубрика:</label>
+             <select name="text">
+                <option value="teh">компьютерная техника</option>
+                <option value="teh">графика дизайн</option>
+                <option value="teh">програмирование</option>
+             </select>
+         <br>
+        <div class="ded">
+        <label>Публикация:</label><br>
+             <input type="radio" name="public" id="radio"> на сайте<br> 
+             <input type="radio" name="public" id="radio"> в журнале<br>
+             <input type="radio" name="public" id="radio"> на сайте и в журнале<br>
+            </div>
+        <label>Разрешить комментарии:</label> 
+             <input type="checkbox" name="check" value="yes" checked>
+        <br>
+
+        <label > Текст статьи: </label><br>
+            <textarea name="area"  cols="50" rows="10" maxlength></textarea>
+       <br>
+
+        <input type="submit">
+    </fieldset>
+    </form>
+     
+</body>
+</html>
