@@ -11,16 +11,39 @@
           padding: 0;
           box-sizing: border-box;
         }
+        form{
+            font-size: large;
+           
+        }
+        p{
+            width: 600px;
+        }
+        fieldset{
+            margin: 10px;
+        }
         label{
             width: 200px;
-            display:inline-block;
+            float: left;
+
         }
         [name*=text]{
-            width: 75%;
-            
+             width: 80%;
+
         }
-      
-        
+        textarea{
+            width: 80%;
+        }
+        @media all and (max-width:1023px){
+            p{
+                width: auto;
+            }
+        }
+        label{
+            float: none;
+        }
+        #radio{
+            width: 20px;
+        }
     </style>
 </head>
 <body>
@@ -43,13 +66,13 @@
              </select>
          <br>
 
-        <label for="">Публикация:</label>
-             <input type="radio" name="public"> на сайте 
-             <input type="radio" name="public"> в журнале
-             <input type="radio" name="public"> на сайте и в журнале
+        <label>Публикация:</label>
+             <input type="radio" name="public" id="radio"> на сайте 
+             <input type="radio" name="public" id="radio"> в журнале
+             <input type="radio" name="public" id="radio"> на сайте и в журнале
          <br>
 
-        <label for="">Разрешить комментарии:</label> 
+        <label>Разрешить комментарии:</label> 
              <input type="checkbox" name="check" value="yes" checked>
         <br>
 
