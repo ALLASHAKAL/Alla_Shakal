@@ -6,13 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         *{
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
+            *{
+        margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+        p{
+                width: 612px;
+            }
+        fieldset{
+            margin: 20px;
+            font-size:large;
+        }
+        [name*=text]{
+            width: 550px;
+        }
+        .check{
+            float: left;
+            padding-right: 20px;
+            
         }
 
-    </style>
+        @media all and (min-width: 713px){
+
+        .left{
+            width:250px;
+            float: left;
+        }
+
+        [name*=text]{
+            width: 80%;
+        }
+        .radio{ 
+            float:left
+        }
+        div.radio > div{
+            float: left;
+            padding-right: 20px;
+        }
+        }
+       
+        </style>
+
+
 </head>
 <body>
 
@@ -22,13 +58,13 @@
  
         <p>Для публикации вашей статьи, заполните пожалуйста следующую форму: </p> 
         
-       <div>Hазвание статьи:</div> 
+       <div class="left">Hазвание статьи:</div> 
 
          <div><input type="text" name="text"></div><br>
 
-        <div>Рубрика:</div> 
+        <div class="left">Рубрика:</div> 
 
-        <div>
+        <div class="right">
             <select name="text">
                 <option value="teh">компьютерная техника</option>
                 <option value="teh">графика дизайн</option>
@@ -36,21 +72,23 @@
              </select>
          </div> <br>
          
-        <div>Публикация:</div>   
+        <div class="left">Публикация:</div>   
 
-        <div><input type="radio" name="public" id="radio"> на сайте </div>   
-        <div><input type="radio" name="public" id="radio"> в журнале</div>   
-        <div><input type="radio" name="public" id="radio"> на сайте и в журнале</div>   
+        <div class="radio ">
+            <div><input type="radio" name="public" id="radio"> на сайте </div>   
+            <div><input type="radio" name="public" id="radio"> в журнале</div>   
+            <div ><input type="radio" name="public" id="radio"> на сайте и в журнале</div> 
+            </div>  
          <br>
 
-        <div>Разрешить комментарии:</div>  
+        <div class="left check">Разрешить комментарии:</div>  
              
-        <div><input type="checkbox" name="check" value="yes" checked>
+        <div class="right" clearfix><input type="checkbox" name="check" value="yes" checked>
         <br>
 
-        <div>Текст статьи: </div> <br>
+        <div class="left">Текст статьи: </div> <br>
 
-        <div><textarea name="area"  cols="50" rows="10" maxlength></textarea></div> 
+        <div class="right"><textarea name="text"  cols="50" rows="10" maxlength></textarea></div> 
         <br>
 
         <input type="submit">
