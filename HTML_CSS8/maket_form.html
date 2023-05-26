@@ -11,39 +11,7 @@
           padding: 0;
           box-sizing: border-box;
         }
-        form{
-            font-size: large;
-           
-        }
-        p{
-            width: 600px;
-        }
-        fieldset{
-            margin: 10px;
-        }
-        label{
-            width: 200px;
-            float: left;
 
-        }
-        [name*=text]{
-             width: 80%;
-
-        }
-        textarea{
-            width: 80%;
-        }
-        @media all and (max-width:1023px){
-            p{
-                width: auto;
-            }
-        }
-        label{
-            float: none;
-        }
-        #radio{
-            width: 20px;
-        }
     </style>
 </head>
 <body>
@@ -54,31 +22,36 @@
  
         <p>Для публикации вашей статьи, заполните пожалуйста следующую форму: </p> 
         
-        <label > Hазвание статьи: </label>
-             <input type="text" name="text">
-       <br>
+       <div>Hазвание статьи:</div> 
 
-        <label>Рубрика:</label>
-             <select name="text">
+         <div><input type="text" name="text"></div><br>
+
+        <div>Рубрика:</div> 
+
+        <div>
+            <select name="text">
                 <option value="teh">компьютерная техника</option>
                 <option value="teh">графика дизайн</option>
                 <option value="teh">програмирование</option>
              </select>
+         </div> <br>
+         
+        <div>Публикация:</div>   
+
+        <div><input type="radio" name="public" id="radio"> на сайте </div>   
+        <div><input type="radio" name="public" id="radio"> в журнале</div>   
+        <div><input type="radio" name="public" id="radio"> на сайте и в журнале</div>   
          <br>
 
-        <label>Публикация:</label>
-             <input type="radio" name="public" id="radio"> на сайте 
-             <input type="radio" name="public" id="radio"> в журнале
-             <input type="radio" name="public" id="radio"> на сайте и в журнале
-         <br>
-
-        <label>Разрешить комментарии:</label> 
-             <input type="checkbox" name="check" value="yes" checked>
+        <div>Разрешить комментарии:</div>  
+             
+        <div><input type="checkbox" name="check" value="yes" checked>
         <br>
 
-        <label > Текст статьи: </label><br>
-            <textarea name="area"  cols="50" rows="10" maxlength></textarea>
-       <br>
+        <div>Текст статьи: </div> <br>
+
+        <div><textarea name="area"  cols="50" rows="10" maxlength></textarea></div> 
+        <br>
 
         <input type="submit">
     </fieldset>
