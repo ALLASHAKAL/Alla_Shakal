@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            user-select: none;
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 50px;
+        }
+        label::before{
+            content: '';
+            position: absolute;
+
+        }
+        input {
+            display: none;
+        }
+
+        input:checked+label {
+            background:url(knopka)150px 50px no-repeat;
+            
+        }
+        input:checked+label::before{
+            left: 32px;
+        }
+
+        input+label {
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <input type="checkbox" name="check" id="go">
+    <label for="go"></label>
+</body>
+</html>
