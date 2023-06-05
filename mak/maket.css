@@ -36,6 +36,7 @@
         font-size: 16px;
         text-align: center;
         background: url(img/Vector\ 70.png) no-repeat right;
+        background-color: #FFFFFF;
         
     }
     header ul li{
@@ -43,10 +44,24 @@
         width: 30px;
 
     }
-    div.text button{
-       width: 400px;
-       background: url(img/Vector\ 70.png) no-repeat right 0px 20px;
-       background-color: #FFFFFF;
+    div.text>button{
+        width: 207px;
+        height: 59px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        position: relative;
+        font-size: 16px;
+        line-height: 155%;
+        
+
+
+
+    }
+    div.text button img{
+        position: absolute;
+        top: 22px;
+        right: 30px;
+
     }
 
     .text{
@@ -72,4 +87,9 @@
     }
     .log2{
         margin-left: -100px;
+    }
+    .conteiner>p{
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 150px;
     }
