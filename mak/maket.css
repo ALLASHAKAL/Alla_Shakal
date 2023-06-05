@@ -1,0 +1,55 @@
+    *{
+        padding: 0px;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+    
+    .fix{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding: 30px;
+    }
+    .conteiner{
+        background: url(img/main\ image.png) no-repeat;
+        height: 100vh;
+        color: #FFFFFF;
+    }
+    header{
+        width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    [type*=button]{
+        height: 30px;
+        width: 160px;
+        border-radius: 5px;
+    }
+    header ul li{
+        display: inline-block;
+        width: 30px;
+
+    }
+    header button img{
+        height: 11;
+        width: 14;
+    }
+
+    .text{
+        color: #FFFFFF;
+        padding-left: 100px;
+        margin-top: 300px;
+        font-size: xx-large;
+        
+    }
+    
+    div.conteiner p{
+        padding-left: 100px;
+    }
