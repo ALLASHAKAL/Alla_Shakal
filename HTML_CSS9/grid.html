@@ -13,6 +13,13 @@
         }
         .ball{
             background: url(img/boll.png) repeat-y right;
+            display: grid;
+            grid-template-columns: 200px auto;
+            grid-template-areas:
+            "head   head   " 
+            "menu   content" 
+            "footer footer ";
+           
 
         }
         .head{
@@ -21,10 +28,7 @@
             background-color: #add8e6;
             text-align: center;
         }
-        .conteiner{
-            display: grid;
-            grid-template-columns: 200px ;
-        }
+      
         .menu{
             background-color: #f0e78d;
 
@@ -40,7 +44,7 @@
                 display: none;
             }
             .conteiner{
-                flex-direction: column-reverse;
+                grid-template-areas: none;
             }
             .ball{
                  background: none;
@@ -63,7 +67,7 @@
         <div class="ball">
     
         <div class="head">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</div>
-         <div class="conteiner">
+      
         <div class="menu">
             <h3>Виды спорта:</h3>
             <ul>
@@ -111,7 +115,7 @@
               столетие и затронула немало стран. Игры с мячом были популярны на всех
               континентах, об этом говорят повсеместные находки археологов.
         </div>
-        </div>
+       
     
         <div class="head footer">
             ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
