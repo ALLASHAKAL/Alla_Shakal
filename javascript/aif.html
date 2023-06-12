@@ -8,9 +8,35 @@
 </head>
 <body>
     <script>
-        var name=prompt('Введите Ф.И.О.');
+        var pens=('Вы на пенсии:')
+        var lastname=prompt('Ваша Фамилия');
+        var name=prompt('Ваше Имя');
+        var sirname=prompt('Ваше Отчество');
         var age= parseInt(prompt('Введите Ваш возраст'));
-        var gender= prompt('Ваш пол');
+        var age1=('Ваш возраст в годах:'+age);
+        var day=(365*age)
+        var last=('Через 5 лет вам будет:'+(age+5))
+        confirm gender=('Вы мужчина?');
+            if true{
+                if(age<63){
+                   console.Log ('pens+нет')
+                }
+                else(age>63){
+                    var pens=('pens+да')
+                }
+            }
+
+            else {
+                if(age<58){
+                    var pens=('pens+нет')
+                }
+                else(age>58){
+                    var pens=('pens+да')
+                }
+            };
+
+
+
     </script>
 </body>
 </html>
