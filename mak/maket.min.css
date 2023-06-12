@@ -1,95 +1,13 @@
-*{
-    padding: 0px;
-    margin-left: 0px;
-    box-sizing: border-box;
-}
-
-.fix{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    padding: 28px;
-}
-.conteiner{
-    
-    margin-left: auto;
-    margin-right: auto;
-    background: url(img/main\ image.png) no-repeat;
-    height: 100vh;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-}
-header{
-    width: 1620px;
-    padding-left: 100px;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-[type*=button]{
-    height: 30px;
-    width: 240px;
-    border-radius: 5px;
-    font-size: 16px;
-    text-align: center;
-    background: url(img/Vector\ 70.png) no-repeat right;
-    background-color: #FFFFFF;
-    
-}
-header ul li{
-    display: inline-block;
-    width: 30px;
-
-}
-div.text>button{
-    width: 207px;
-    height: 59px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    position: relative;
-    font-size: 16px;
-    line-height: 155%;
-    
-
-
-
-}
-div.text button img{
-    position: absolute;
-    top: 22px;
-    right: 30px;
-
-}
-
-.text{
-    color: #FFFFFF;
-    padding-left: 100px;
-    margin-top: 300px;
-    font-size: xx-large;
-    
-}
-
-div.conteiner p{
-    padding-left: 100px;
-    
-}
-
-.log{
-    font-weight: 700;
-    font-size: 37.0312px;
-    float: left;
-    width: 243px;
-    height: 63px;
-    padding-top: 15px;
-}
-.log2{
-    margin-left: -100px;
-}
-.conteiner>p{
-    font-weight: 700;
-    font-size: 20px;
-    padding-top: 150px;
-}
+*{padding:0;margin-left:0;box-sizing:border-box}
+.fix{position:fixed;top:0;left:0;height:100vh;padding:28px}
+.conteiner{margin-left:auto;margin-right:auto;background:url('img/main/ image.png') no-repeat;height:100vh;color:#fff;font-family:Roboto,sans-serif}
+header{width:1620px;padding-left:100px;padding-top:20px;display:flex;justify-content:space-between;align-items:center}
+[type*=button]{height:30px;width:240px;border-radius:5px;font-size:16px;text-align:center;background:url('img/Vector/ 70.png') no-repeat right;background-color:#fff}
+header ul li{display:inline-block;width:30px}
+div.text>button{width:207px;height:59px;border-radius:10px;background-color:#fff;position:relative;font-size:16px;line-height:155%}
+div.text button img{position:absolute;top:22px;right:30px}
+.text{color:#fff;padding-left:100px;margin-top:300px;font-size:xx-large}
+div.conteiner p{padding-left:100px}
+.log{font-weight:700;font-size:37.0312px;float:left;width:243px;height:63px;padding-top:15px}
+.log2{margin-left:-100px}
+.conteiner>p{font-weight:700;font-size:20px;padding-top:150px}
