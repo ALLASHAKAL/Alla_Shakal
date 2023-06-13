@@ -8,33 +8,39 @@
 </head>
 <body>
     <script>
-        var pens=('Вы на пенсии:')
+        var pens=('')
         var lastname=prompt('Ваша Фамилия');
         var name=prompt('Ваше Имя');
-        var sirname=prompt('Ваше Отчество');
+        var surname=prompt('Ваше Отчество');
         var age= parseInt(prompt('Введите Ваш возраст'));
-        var age1=('Ваш возраст в годах:'+age);
-        var day=(365*age)
         var last=('Через 5 лет вам будет:'+(age+5))
-        confirm gender=('Вы мужчина?');
-            if true{
-                if(age<63){
-                   console.Log ('pens+нет')
-                }
-                else(age>63){
-                    var pens=('pens+да')
-                }
+        var gender= confirm('Вы мужчина?')
+            if (gender==true){
+                if(age>=63)
+                    pens=('да');
+                
+                else
+                    pens=('нет');
+                
             }
 
             else {
-                if(age<58){
-                    var pens=('pens+нет')
-                }
-                else(age>58){
-                    var pens=('pens+да')
-                }
+                if(age>=58)
+                    pens=('да');
+                
+                else
+                    pens=('нет');
+                
             };
 
+            alert(
+            'Ваше ФИО: ' + lastname + ' ' + name + ' ' + surname + '\n' +
+            'Ваш возраст в годах: ' + age + '\n' +
+            'Ваш возраст в днях: ' + (age * 365) + '\n' +
+            'Через 5 лет вам будет: ' + (age + 5) + '\n'+
+            'Вы на пенсии?:' + pens
+
+        );
 
 
     </script>
