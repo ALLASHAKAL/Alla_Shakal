@@ -8,13 +8,20 @@
 </head>
 <body>
     <script>
-        var pens=('')
         var lastname=prompt('Ваша Фамилия');
         var name=prompt('Ваше Имя');
         var surname=prompt('Ваше Отчество');
         var age= parseInt(prompt('Введите Ваш возраст'));
-        var last=('Через 5 лет вам будет:'+(age+5))
         var gender= confirm('Вы мужчина?')
+            if (gender==true){
+                sex=('Мужчина')
+            }
+
+             else{
+                sex=('Женщина')
+            }
+
+
             if (gender==true){
                 if(age>=63)
                     pens=('да');
@@ -32,12 +39,14 @@
                     pens=('нет');
                 
             };
+           
 
             alert(
             'Ваше ФИО: ' + lastname + ' ' + name + ' ' + surname + '\n' +
             'Ваш возраст в годах: ' + age + '\n' +
             'Ваш возраст в днях: ' + (age * 365) + '\n' +
             'Через 5 лет вам будет: ' + (age + 5) + '\n'+
+            'Вы:'+ sex +'\n'+
             'Вы на пенсии?:' + pens
 
         );
