@@ -13,34 +13,9 @@
         var surname=prompt('Ваше Отчество');
         var age= parseInt(prompt('Введите Ваш возраст'));
         var gender= confirm('Вы мужчина?')
-            if (gender==true){
-                sex=('Мужчина');
-            }
-
-             else{
-                sex=('Женщина');
-            }
-
-
-            if (gender==true){
-                if(age>=63)
-                    pens=('да');
+            var sex=(gender==true)?'Мужчина':'Женщина';
+            var pens=(gender==true)?(age>=63)?'да':'нет':(age>=58)?'да':'нет';
                 
-                else
-                    pens=('нет');
-                
-            }
-
-            else {
-                if(age>=58)
-                    pens=('да');
-                
-                else
-                    pens=('нет');
-                
-            };
-           
-
             alert(
             'Ваше ФИО: ' + lastname + ' ' + name + ' ' + surname + '\n' +
             'Ваш возраст в годах: ' + age + '\n' +
