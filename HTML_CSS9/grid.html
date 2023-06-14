@@ -15,21 +15,35 @@
             background: url(img/boll.png) repeat-y right;
             display: grid;
             grid-template-columns: 200px auto;
-            grid-template-areas:
-            "head   head   " 
-            "menu   content" 
-            "footer footer ";
-           
+            grid-template-rows: auto;
+            grid-template-areas: "header  header"
+						 "menu   kontent"
+                         "footer footer";
 
         }
-        .head{
+        .head {
             font-size: xx-large;
             color: blue;
             background-color: #add8e6;
             text-align: center;
+            grid-area: header;
+            
+        }
+
+        .footer{
+            font-size: xx-large;
+            color: blue;
+            background-color: #add8e6;
+            text-align: center;
+            grid-area: footer;
+        }
+        .kontent{
+            grid-area: kontent;
+           
         }
       
         .menu{
+            grid-area: menu;
             background-color: #f0e78d;
 
         }
@@ -40,15 +54,20 @@
             text-align: center;
         }
         @media all and (max-width: 300px){
-            .head{
+            .head, .footer{
                 display: none;
             }
-            .conteiner{
-                grid-template-areas: none;
-            }
+          
             .ball{
                  background: none;
+                 grid-template-columns: auto;
+                    grid-template-rows: auto;
+                    grid-template-areas:
+						 "kontent"
+                         "menu";
+           
             }
+            
             .menu{
                 width: auto;
                 background-color: transparent;
@@ -117,7 +136,7 @@
         </div>
        
     
-        <div class="head footer">
+        <div class="footer">
             ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
         </div>
     </div>
