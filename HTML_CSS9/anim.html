@@ -26,12 +26,20 @@
             background-color: red;
             position: absolute;
             left:800px;
-            animation: text 3s steps(6) infinite;
+            animation: text 1s steps(6) infinite;
             height: 50px;
             padding: 27px;
             margin: 13px;
             }
-        
+
+        @keyframes img {
+            from{
+                left: 10px;
+            }
+            to{
+                left: 2000px;
+            }
+        }
             .pict img{
                 width: 300px;
                 height: 200px;
@@ -39,7 +47,13 @@
                 margin: 13px;
                 position: absolute;
                 z-index: 1;
+              
             }
+            .pict img:hover{
+                left: 10px;
+                animation: img 2s steps(100) infinite;
+            }
+
 
 
 
