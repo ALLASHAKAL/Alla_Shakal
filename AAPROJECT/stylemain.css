@@ -121,6 +121,29 @@
     Height:52px;
     Top:531px;
     background-color:  #D33D34;
-    
-    
 }
+
+.text{
+    width: 998px;
+    height: 65px;
+    font-family: Museo Sans Cyrl 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-top: 600px;
+}
+.group>img{
+    float: left;
+}
+.info>img{
+    float: left;
+}
+.bet>img{
+    float: left;
+}
+.text p{
+    padding-top: 20px;
+}
+
