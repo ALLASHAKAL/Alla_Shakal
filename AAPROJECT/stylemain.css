@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .btn-success{
     width: 180px;
     height: 40px;
@@ -14,8 +19,8 @@
 }
 .headf{
     height: 100%;
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,8 +42,8 @@
     content: url(img/tel.png);
 }
 .head ul{
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     height: 47px;
     display: flex;
     align-items: center;
@@ -63,8 +68,8 @@
 }
 .main{
     position: relative;
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     width: auto;
 }
 @keyframes MyAnimation1
@@ -130,8 +135,8 @@
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-top: 600px;
 }
 .group>img{
@@ -217,8 +222,8 @@ div.card>button{
     height: 52px;
 }
 .catalog{
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .arend2{
     Width:263px;
@@ -242,8 +247,8 @@ div.card>button{
 .soder{
     font-family: Museo Sans Cyrl;
     font-weight: 700;
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color:#EEEEEE;
 }
 .kart{
@@ -275,7 +280,7 @@ div.card>button{
 .karta>p{
     width: 400px;
     margin-top: 30px;
-    margin-left: 388px;
+    margin-left: 200px;
     font-family: Museo Sans Cyrl;
     font-weight: 700;
     font-size: 35px;
@@ -285,7 +290,7 @@ div.card>button{
 .nuv{
     margin-top: 200px;
     margin-top: 100px;
-    margin-left: 388px;
+    margin-left: 200px;
     overflow: hidden;
 }
 .side{
@@ -306,7 +311,7 @@ div.card>button{
 
 .nat{
     margin-top: 200px;
-    margin-left: 388px;
+    margin-left: 200px;
     font-size: 35px;
     font-family: Museo Sans Cyrl;
     font-weight: 700;
@@ -330,12 +335,10 @@ footer {
     
 }
 .foot{
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 200px;
+    margin-right: 200px;
     height: 47px;
-    width: auto;
-    
-    
+  
 }
 div.fotul {
     display: flex;
@@ -372,6 +375,7 @@ div.fotul {
     
 }
 .footf{
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

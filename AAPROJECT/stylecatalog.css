@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-success{
+    width: 180px;
+    height: 40px;
+    Align:Center;
+    border-radius: 43px;
+    background-color: #077A34;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #172027;
+    
+}
+.headf{
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:Museo Sans Cyrl;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.headf_right img{
+    margin-right: 20px;
+}
+.headf_right a{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.headf_right a::before{
+    content: url(img/tel.png);
+}
+.head ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}  
+.head ul > li{
+    display: inline;
+}
+.head ul li>a{
+    color: #0F0F10;
+    text-decoration:none;
+    font-family: Museo Sans Cyrl;
+    font-weight: 300;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    height: 331px;
+    color: #FFFFFF;
+    font-family: Museo Sans Cyrl;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: #797C7D;
+    
+}
+.foot{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 47px;
+    width: auto;  
+}
+div.fotul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 120px;
+}
+
+.foot_right img{
+    margin-right: 20px;
+}
+
+.foot ul{
+    width: 1141px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  
+}  
+.foot ul > li{
+    display: inline;
+    
+}
+.fotul ul li>a{
+    color: #FFFFFF;
+    text-decoration:none;
+    font-family: Museo Sans Cyrl;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+.footf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footf_right a{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.catalog{
+    margin-top: 143px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1140px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 18px;
+}
+.elect{
+    font-size: 35px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+.card{
+    width: 368px;
+    height: 694px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+}
+.kont{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+p.name{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.dan{
+    font-weight: 300;
+}
+.info{
+    width: 200px;
+}
+.info>p{
+    margin: 15px;
+}
+.dan>p{
+    
+    margin: 28px;
+}
+div.card>button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 263px;
+    height: 52px;
+    margin-top: -20px;
+        }
+.button1 {
+            background-color: #C6C5C5;
+            font-size: 25px;
+            border: none;
+            color: #0F0F10;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+div.but{
+    display: flex;
+    justify-content: center;
+}
+.button1:hover{
+    background-color: #0F0F10;
+    color: #FFFFFF;
+}
+.but::before{
+    content: url(img/car/Group.png);
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.but::after{
+    content: url(img/car/Group12.png);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
