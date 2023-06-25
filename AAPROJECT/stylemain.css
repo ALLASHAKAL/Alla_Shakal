@@ -14,8 +14,8 @@
 }
 .headf{
     height: 100%;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 388px;
+    margin-right: 388px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,8 +39,8 @@
     content: url(img/tel.png);
 }
 .head ul{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 388px;
+    margin-right: 388px;
     height: 47px;
     display: flex;
     align-items: center;
@@ -65,8 +65,8 @@
 }
 .main{
     position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 388px;
+    margin-right: 388px;
     width: auto;
 }
 @keyframes MyAnimation1
@@ -126,12 +126,13 @@
 .text{
     width: 998px;
     height: 65px;
-    font-family: Museo Sans Cyrl 300;
+    font-family: Museo Sans Cyrl;
     font-size: 15px;
+    font-weight: 300;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
+    margin-left: 388px;
     padding-top: 600px;
 }
 .group>img{
@@ -145,5 +146,71 @@
 }
 .text p{
     padding-top: 20px;
+    width: 250px;
+}
+.cart{ 
+    width: 1145px;
+    height: 915px;
+    margin-left: 388px;
+    margin-top: 110px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0F0F10;
+    display: flex;
+    justify-content: space-around;
+
+}
+.elect{
+    font-size: 35px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    margin-top: 160px;
+    margin-left: 388px;
+    
 }
 
+.card{
+    width: 368px;
+    height: 694px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card:hover{
+     width: 400px;
+     height: 700px;
+}
+p.name{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.kont{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    
+}
+
+.dan{
+    font-weight: 300;
+}
+.info{
+    width: 200px;
+}
+.info>p{
+    margin: 15px;
+}
+.dan>p{
+    
+    margin: 28px;
+}
+div.card>button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 263px;
+    height: 52px;
+    margin-top: -20px;
+    
+        }
