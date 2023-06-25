@@ -131,6 +131,7 @@
     display: flex;
     justify-content: space-between;
     margin-left: 388px;
+    margin-right: 388px;
     padding-top: 600px;
 }
 .group>img{
@@ -147,7 +148,7 @@
     width: 250px;
 }
 .cart{ 
-    width: 1145px;
+     /* width: 1145px;  */
     height: 915px;
     margin-top: 110px;
     font-family: Museo Sans Cyrl;
@@ -180,12 +181,12 @@ p.name{
     text-align: center;
     margin: 20px;
 }
-.kont{
+ .kont{
     display: flex;
     justify-content: flex-start;
     padding: 20px;
     
-}
+} 
 
 .dan{
     font-weight: 300;
@@ -265,4 +266,17 @@ div.card>button{
 .sod h3{
     font-size: 18px;
     font-weight: 700;
+}
+.karta{
+    width: 100vh;
+    height: 785px;
+}
+.karta>p{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 388px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 35px;
+
 }
