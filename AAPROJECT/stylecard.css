@@ -122,3 +122,24 @@ div.fotul {
     margin-right: 20px;
 }
 
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+div.main img{
+    width: 757px;
+    height: 568px;
+}
+.cont{
+    width: 369 px;
+}
+.soder{
+    width: 369px;
+    display: flex;
+    justify-content: flex-start;
+    border: 5px solid transparent;
+    
+}
+.right{
+    text-align: end;
+}
