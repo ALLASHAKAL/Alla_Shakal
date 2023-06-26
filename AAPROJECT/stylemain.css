@@ -338,43 +338,28 @@ footer {
     margin-left: 200px;
     margin-right: 200px;
     height: 47px;
-  
+    
 }
-div.fotul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 60px;
-    margin-bottom: 120px;
-}
-
-.foot_right img{
-    margin-right: 20px;
-}
-
 .foot ul{
-    width: 1141px;
+    padding-top: 100px;
+    height: 47px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
-
-  
 }  
 .foot ul > li{
     display: inline;
-    
 }
-.fotul ul li>a{
+.foot ul li>a{
     color: #FFFFFF;
     text-decoration:none;
     font-family: Museo Sans Cyrl;
     font-weight: 300;
     font-size: 15px;
-    
 }
 .footf{
+    padding-top: 120px;
     width: auto;
     display: flex;
     align-items: center;

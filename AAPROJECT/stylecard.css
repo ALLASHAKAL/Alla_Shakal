@@ -60,7 +60,7 @@
     font-weight: 300;
     font-size: 15px;
 }
-footer{
+footer {
     width: 100%;
     height: 331px;
     color: #FFFFFF;
@@ -74,42 +74,29 @@ footer{
     margin-left: 200px;
     margin-right: 200px;
     height: 47px;
-    width: auto;  
+    
 }
-div.fotul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
-    margin-bottom: 120px;
-}
-
-.foot_right img{
-    margin-right: 20px;
-}
-
 .foot ul{
-    width: 1141px;
+    padding-top: 100px;
+    height: 47px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
-
-  
 }  
 .foot ul > li{
     display: inline;
-    
 }
-.fotul ul li>a{
+.foot ul li>a{
     color: #FFFFFF;
     text-decoration:none;
     font-family: Museo Sans Cyrl;
     font-weight: 300;
     font-size: 15px;
-    
 }
 .footf{
+    padding-top: 120px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,16 +109,43 @@ div.fotul {
     margin-right: 20px;
 }
 
+
 .main{
+    margin-top: 140px;
     margin-left: 200px;
     margin-right: 200px;
+    display: grid;
+    grid-template-columns:757px 354px;
+    grid-template-rows: 568px 158px;
+    grid-template-areas: 
+    "car cont";
 }
+.car{
+    grid-area: car;
+}
+
 div.main img{
     width: 757px;
     height: 568px;
 }
 .cont{
     width: 369 px;
+    grid-area: cont;
+}
+.fot{
+    margin-left: 10px;
+    margin-top: -220px;
+    width: 757px;
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px;
+   
+}
+.fot img{
+    margin-left: 200px;
+    width: 175px;
+    height: 131px;
+    border-radius: 10px;
+    
 }
 .soder{
     width: 369px;
@@ -142,4 +156,7 @@ div.main img{
 }
 .right{
     text-align: end;
+}
+.text{
+    margin-left: 200px;
 }
