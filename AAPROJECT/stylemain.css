@@ -175,6 +175,7 @@
     width: 368px;
     height: 694px;
     border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
 }
 .card:hover{
      width: 400px;
