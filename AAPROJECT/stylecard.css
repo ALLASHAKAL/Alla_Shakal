@@ -111,6 +111,7 @@ footer {
 
 
 .main{
+    position: relative;
     margin-top: 140px;
     margin-left: 200px;
     margin-right: 200px;
@@ -122,17 +123,27 @@ footer {
 }
 .car{
     grid-area: car;
+    transition: 5s;
 }
+
 
 div.main img{
     width: 757px;
     height: 568px;
+    transition: 3s;
+}
+div.main img:hover{
+    position: absolute;
+    z-index: 1;
+    width: 908px;
+    height: 681px;
 }
 .cont{
     width: 369 px;
     grid-area: cont;
 }
 .fot{
+    position: relative;
     margin-left: 10px;
     margin-top: -220px;
     width: 757px;
@@ -149,14 +160,44 @@ div.main img{
 }
 .soder{
     width: 369px;
+    height: 450px;
+    padding: 20px;
     display: flex;
     justify-content: flex-start;
-    border: 5px solid transparent;
-    
+    border: 5px solid #5c5b5b0f;
+    border-radius: 10%;
+}
+
+.soder p{
+    padding-bottom: 20px;
 }
 .right{
     text-align: end;
 }
 .text{
-    margin-left: 200px;
+    margin-left: 235px;
+    margin-right: 500px;
 }
+.text p, h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-success{
+    margin: 20px;
+    width: 263px;
+    height: 52px;
+    Align:Center;
+    border-radius: 50px;
+    background-color: #077A34;
+}
+.two{
+    background-color: #A8180F;
+}
+.button{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
