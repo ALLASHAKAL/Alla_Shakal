@@ -172,9 +172,10 @@
 }
 
 .card{
-    width: 368px;
+    width: 350px;
     height: 694px;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
 }
 .card:hover{
      width: 400px;
