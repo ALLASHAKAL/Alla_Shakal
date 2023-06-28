@@ -1,0 +1,36 @@
+@media screen and (max-width:1426px){
+    .none{
+            display: none;
+        }
+}
+@media screen and (max-width:1144px){
+    .headf_right>img , .footf_right >img{
+        display: none;
+    }
+    .main img{
+        animation: noness;
+    }
+
+}
+
+@media screen and (max-width:1076px){
+    .two{
+        display: none;
+    }
+    .karta {
+        width: 100vw;
+        height: 785px;
+
+    }
+
+}
+
+
+@media screen and (max-width:821px){
+
+ .text {
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+}
